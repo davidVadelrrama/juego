@@ -16,6 +16,8 @@ import screens.ScreenB;
 
 public class MainWindow implements Initializable {
 
+	public static  long FRAMES = 0;
+
 	@FXML
 	private Canvas canvas;
 	

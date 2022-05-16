@@ -38,10 +38,7 @@ public class Avatar {
 	
 	public void paint() {
 		gc.drawImage(avatar, x, y);
-		if(MainWindow.FRAMES == 100) {
-			x = 0;
-			y = 0;
-		}
+		
 	}
 
 	public void moveYBy(int i) {
@@ -52,6 +49,24 @@ public class Avatar {
 	public void moveXBy(int i) {
 		this.x += i;
 	}
+
+	public int getX() {
+		return x;
+	}
+
+	public void setX(int x) {
+		this.x = x;
+	}
+
+	public int getY() {
+		return y;
+	}
+
+	public void setY(int y) {
+		this.y = y;
+	}
+	
+	
 
 	
 	
